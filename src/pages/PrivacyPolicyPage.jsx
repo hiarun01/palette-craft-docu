@@ -32,7 +32,7 @@ const PrivacyPolicyPage = () => {
       <h2>Contact</h2>
       <p>
         For any concerns, contact us at{" "}
-        <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>.
+        <a href="mailto:hiarun.works@gmail.com">hiarun.works@gmail.com</a>.
       </p>
     </div>
   );
