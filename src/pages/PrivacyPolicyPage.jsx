@@ -3,35 +3,39 @@ import React from "react";
 const PrivacyPolicyPage = () => {
   return (
     <div className="container">
-      <h1>Privacy Policy</h1>
+      <h1>Privacy Policy – PaletteCraft</h1>
       <p>
-        We take your privacy seriously. This document outlines what data we
-        collect and how we use it.
+       At PaletteCraft, we take your privacy seriously. This policy explains what data we collect and how we use it
       </p>
 
       <h2>Data We Collect</h2>
       <ul>
         <li>
-          No personal information (name, email, etc.) is collected by default.
+        We do not collect any personal information such as your name, email address, or location by default.
         </li>
-        <li>We only use your input (like text prompts) to generate content.</li>
+        <li>The only data used is your input, such as text prompts you provide for generating color palettes.</li>
       </ul>
 
       <h2>How We Use Your Data</h2>
       <ul>
-        <li>Input is used only temporarily in your current session.</li>
-        <li>No data is stored or sent to third parties.</li>
+       
+
+
+
+No data is transmitted to external databases or stored for later use.
+        <li> Your input is used temporarily during your session to generate the output.</li>
+        <li>We do not store, log, or share this data with anyone.</li>
+          <li>No data is transmitted to external databases or stored for later use.</li>
       </ul>
 
       <h2>Third-Party Services</h2>
       <p>
-        If we use external APIs (e.g., OpenAI), their data policies may apply as
-        well. We do not share or transmit any personal data to them.
+       We may use external APIs (e.g., OpenAI) to process input. While we do not send personal data to them, their privacy policies may apply when interacting with their services.
       </p>
 
       <h2>Contact</h2>
       <p>
-        For any concerns, contact us at{" "}
+     If you have any questions or concerns about your data privacy, please feel free to contact us:
         <a href="mailto:hiarun.works@gmail.com">hiarun.works@gmail.com</a>.
       </p>
     </div>
