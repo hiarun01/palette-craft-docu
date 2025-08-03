@@ -2,7 +2,7 @@ import React from "react";
 
 const TermsConditionPage = () => {
   return (
-    <>
+    <div className="container">
       <h1>Terms of Service</h1>
 
       <p>By using this app, you agree to these terms.</p>
@@ -28,7 +28,7 @@ const TermsConditionPage = () => {
         We are not liable for how users use the generated content. Use it
         responsibly.
       </p>
-    </>
+    </div>
   );
 };
 
